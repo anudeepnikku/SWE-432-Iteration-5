@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "655980252d9b3a5b8444903e"
+  },
+  "name": "One Song",
+  "artist": "A artist",
+  "duration": 2.25,
+  "genre": "Rock"
+},
+{
+  "_id": {
+    "$oid": "655980252d9b3a5b8444903f"
+  },
+  "name": "Another song",
+  "artist": "Other artist",
+  "duration": 1.25,
+  "genre": "Jazz"
+},
+{
+  "_id": {
+    "$oid": "655980252d9b3a5b84449040"
+  },
+  "name": "qwerty song",
+  "artist": "First Keyboard",
+  "duration": 3.5,
+  "genre": "Country"
+},
+{
+  "_id": {
+    "$oid": "655980252d9b3a5b84449041"
+  },
+  "name": "asdfghjkl song",
+  "artist": "Some artist",
+  "duration": 2,
+  "genre": "Classical"
+},
+{
+  "_id": {
+    "$oid": "655980252d9b3a5b84449042"
+  },
+  "name": "Over the Horizon",
+  "artist": "Samsung",
+  "duration": 0.25,
+  "genre": "Other"
+}]
