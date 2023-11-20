@@ -1,0 +1,82 @@
+<!DOCTYPE html</>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title> Show Page </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<main>
+
+
+	<script>
+
+		let nameOfShow={
+			name: "First Person",
+			showName: "Some Show",
+			startTime: "1:55 PM",
+			duration: "2 hours, 15 minutes"
+			};
+		console.log(nameOfShow.name);
+		console.log(nameOfShow.showName);
+		console.log(nameOfShow.startTime);
+		console.log(nameOfShow.duration);
+
+		const songs=["This Song", "Another Song", "qwerty song", "asdfghjkl song", "zusdgs song"];
+		var originalSong="This Song";
+		songs.forEach((value)=>{
+				console.log(value);	
+			}
+		);
+
+		if(songs[0]=="This Song")
+		{
+			console.log("the first song is valid");
+		}
+
+		nameOfShow.name="Second";
+
+		if(nameOfShow.name=="First Person")
+		{
+			console.log("The name of the dj is First Person");
+		}
+
+		else if(nameOfShow.name="Second")
+		{
+			console.log("The name of the dj is Second");		
+		}
+
+		else
+		{
+			console.log("The dj does not have a known name");
+		}
+
+		if(nameOfShow.startTime=="1:00 AM")
+		{
+			console.log("The start time of the show is 1 in the morning");
+		}
+
+		else
+		{
+			console.log("The user provided a start time that is not 1:00 AM");
+		}
+
+		if(nameOfShow.duration=="2 hours, 15 minutes" && nameOfShow.name!="First Person")
+		{
+			console.log("The name of the show has been modified in this session!");
+		}
+		
+		nameOfShow.startDate="1/9/23";
+		console.log("The start date is: " + nameOfShow.startDate);
+
+		var pageNumber=2;
+		console.log("The page number is: " + pageNumber);
+		console.log("The original song the user provided is: " + originalSong);
+	</script>
+	
+    <div class="box"><div class="rectangle"></div></div>
+  
+    
+	
+	
+</main>
+</html>
